@@ -7,3 +7,48 @@
     --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif;
     --font-display: 'Fraunces', ui-serif, Georgia, serif;
 }
+
+/* Gerakan Swiper supaya seperti marquee */
+.testimonial-swiper .swiper-wrapper {
+    transition-timing-function: linear !important;
+}
+
+
+/* Testimonial default memudar */
+.testimonial-swiper .swiper-slide {
+    opacity: 0.2;
+    transition: opacity 700ms ease;
+}
+
+
+/* Testimonial yang berada di tengah */
+.testimonial-swiper .swiper-slide-active {
+    opacity: 1;
+}
+
+
+/* Pagination tidak aktif */
+.testimonial-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+
+    background: #44403C;
+    opacity: 1;
+
+    transition:
+        width 300ms ease,
+        opacity 300ms ease,
+        background 300ms ease;
+}
+
+
+/* Pagination aktif */
+.testimonial-pagination .swiper-pagination-bullet-active {
+    width: 28px;
+
+    border-radius: 9999px;
+
+    background: #C2410C;
+
+    opacity: 1;
+}

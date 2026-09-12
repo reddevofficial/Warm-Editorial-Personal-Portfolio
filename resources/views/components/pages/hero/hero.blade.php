@@ -19,7 +19,7 @@
         </div>
 
         {{-- btn --}}
-        <a href="" class="mt-4">
+        <a href="#work" class="mt-4">
             <button 
             class="bg-amber-700 
             px-6 py-2 

@@ -53,7 +53,7 @@
                     <div class="col-span-3 mx-5 border-t border-stone-300"></div>
                 @endif
 
-                <section class="
+                <section class="        
                     relative
                     p-5
                     flex justify-center
