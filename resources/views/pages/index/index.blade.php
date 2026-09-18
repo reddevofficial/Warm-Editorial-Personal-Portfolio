@@ -1,50 +1,47 @@
 <div class="flex justify-center">
-
+    <!-- container main content -->
     <section class="w-full max-w-[95rem] relative">
-
-        {{-- =========================
-            HERO
-            Diam lalu ditimpa About
-        ========================== --}}
+        <!-- hero -->
         <div class="sticky top-0 h-screen z-0">
             <livewire:pages.hero/>
         </div>
 
-
-        {{-- =========================
-            MAIN CONTENT
-            Menimpa Hero
-        ========================== --}}
-        <div class="relative z-10 bg-amber-50">
-
+        <!-- container overlapping -->
+        <div class="relative z-10 bg-[#FBF5E1]">
+            <!-- about -->
             <livewire:pages.about/>
 
+            <!-- services -->
             <livewire:pages.services/>
 
+            <!-- work -->
             <livewire:pages.work/>
 
         </div>
 
-
-        {{-- =========================
-            TESTIMONI + CONTACT
-            Contact menimpa Testimoni
-        ========================== --}}
-        <div class="relative bg-amber-50">
-
-            {{-- Testimoni diam di belakang --}}
+        <!-- container overlapping -->
+        <div class="relative bg-[#FBF5E1]">
+            <!-- testimoni -->
             <div class="sticky top-0 h-[110vh] z-10">
                 <livewire:pages.testimoni/>                
             </div>
 
-
-            {{-- Contact naik menimpa Testimoni --}}
+            <!--  overlapping testimoni -->
             <div class="relative z-20">
-                <livewire:pages.contact/>
+                <div
+                    class="
+                        bg-[#FBF5E1]
+                        p-28
+                        sticky top-0 z-20
+                    "
+                    id="contact"
+                >
+                    <!-- contanct -->
+                    <livewire:pages.contact/>
+                </div>
             </div>
 
         </div>
 
     </section>
-
 </div>

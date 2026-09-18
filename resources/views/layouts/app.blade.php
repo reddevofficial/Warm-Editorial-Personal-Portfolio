@@ -14,12 +14,14 @@
 
         @livewireStyles
     </head>
-    <body class="bg-amber-50 selection:bg-amber-100">
+    <body class="bg-[#FBF5E1] selection:bg-amber-100 relative">
         <header class="fixed w-full top-0 z-50" >
+            <!-- navbar -->
             <livewire:navbar/>
         </header>
         {{ $slot }}
-
         @livewireScripts
+        <!-- footer -->
+        <livewire:footer/>
     </body>
 </html>

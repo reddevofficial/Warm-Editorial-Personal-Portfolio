@@ -1,4 +1,4 @@
-<div class="px-28 py-4 flex justify-between bg-amber-50 border-b-2 border-amber-600 w-full" >
+<div class="px-28 py-4 flex justify-between bg-[#FBF5E1] border-b-2 border-amber-600 w-full" >
     <!-- title -->
     <h1 class="font-bold font-display text-2xl capitalize">rina putri</h1>
 

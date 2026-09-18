@@ -1,5 +1,5 @@
-<div class="relative h-screen">
-    <div class="px-28 pb-56">
+<div class="relative">
+    <div class="px-28">
         <section class="grid grid-cols-2 gap-5">
             <div class="flex flex-col items-start justify-start gap-4">
                 <!-- badge -->
@@ -16,7 +16,7 @@
         <section
             class="
                 testimonial-section
-                bg-amber-50
+                bg-[#FBF5E1]
                 py-20
                 overflow-hidden
             "
@@ -129,5 +129,11 @@
         </section>
         
     </div>
-    <img src="{{ asset('images/bg-testi.webp') }}" class="object-cover w-full absolute -bottom-12 z-0 drop-shadow-2xl pointer-events-none"  alt="">
+    <img src="{{ asset('images/bg-testi.webp') }}" 
+        class="
+            object-cover 
+            w-full  absolute 
+            -bottom-48 z-0 
+            drop-shadow-2xl 
+            pointer-events-none"  alt="">
 </div>
